@@ -16,7 +16,7 @@ namespace CuaHangMyPham
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCongdung());
+            Application.Run(new Forms.frmMain());
         }
     }
 }
