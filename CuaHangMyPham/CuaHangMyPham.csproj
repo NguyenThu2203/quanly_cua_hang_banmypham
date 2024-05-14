@@ -59,6 +59,12 @@
     <Compile Include="Forms\frmHanghoa.Designer.cs">
       <DependentUpon>frmHanghoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmHangsanxuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHangsanxuat.Designer.cs">
+      <DependentUpon>frmHangsanxuat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmLoai.cs">
       <SubType>Form</SubType>
     </Compile>
