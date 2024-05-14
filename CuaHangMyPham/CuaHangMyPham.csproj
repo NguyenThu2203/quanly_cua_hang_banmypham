@@ -85,6 +85,9 @@
     <EmbeddedResource Include="Forms\frmHanghoa.resx">
       <DependentUpon>frmHanghoa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHangsanxuat.resx">
+      <DependentUpon>frmHangsanxuat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLoai.resx">
       <DependentUpon>frmLoai.cs</DependentUpon>
     </EmbeddedResource>

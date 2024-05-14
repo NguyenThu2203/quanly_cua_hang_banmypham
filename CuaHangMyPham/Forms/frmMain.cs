@@ -34,5 +34,11 @@ namespace CuaHangMyPham.Forms
             frmLoai c = new frmLoai();
             c.Show();
         }
+
+        private void mnuHangsx_Click(object sender, EventArgs e)
+        {
+            frmHangsanxuat d = new frmHangsanxuat();
+            d.Show();
+        }
     }
 }
