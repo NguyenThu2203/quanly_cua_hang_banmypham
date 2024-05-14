@@ -18,7 +18,9 @@ namespace CuaHangMyPham.Class
         public static void Connect()
         {
             //Thiết lập giá trị cho chuỗi kết nối
-            connString = "Data Source=DESKTOP-NM815JH\\SQLEXPRESS;Initial Catalog=CuaHangMyPham;Integrated Security=True;Encrypt=False";
+            //connString = "Data Source=DESKTOP-NM815JH\\SQLEXPRESS;Initial Catalog=CuaHangMyPham;Integrated Security=True;Encrypt=False";
+            //connString = "Data Source=LAPTOP-9FSA2OM9\\SQLEXPRESS;Initial Catalog=CuaHangMyPham;Integrated Security=True;Encrypt=False";
+            connString = "Data Source=LAPTOP-8CQUN76N\\SQLEXPRESS;Initial Catalog=CuaHangMyPham;Integrated Security=True;Encrypt=False";
             Conn = new SqlConnection();         		//Cấp phát đối tượng
             Conn.ConnectionString = connString; 		//Kết nối
             Conn.Open();                        		//Mở kết nối
@@ -78,7 +80,44 @@ namespace CuaHangMyPham.Class
             cmd.Dispose();
             cmd = null;
         }
+        public static bool IsDate(string d)
+        {
+            string[] parts = d.Split('/');
+            if ((Convert.ToInt32(parts[0]) >= 1) && (Convert.ToInt32(parts[0]) <= 31) && (Convert.ToInt32(parts[1]) >= 1) && (Convert.ToInt32(parts[1]) <= 12) && (Convert.ToInt32(parts[2]) >= 1990))
+            {
+                return true;
+            }
+            else return false;
+        }
+        public static string ConvertDatetime(string d)
+        {
+            string[] parts = d.Split('/');
+            string dt = string.Format("{0}/{1}/{2}", parts[1], parts[0], parts[2]);
+            return dt;
+        }
+        public static void FillCombo(string sql, ComboBox cbo, string ma, string ten)
+        {
+            SqlDataAdapter Mydata = new SqlDataAdapter(sql, Class.Functions.Conn);
+            DataTable table = new DataTable();
+            Mydata.Fill(table);
+            cbo.DataSource = table;
 
+            cbo.ValueMember = ma;    // Truong gia tri
+            cbo.DisplayMember = ten;    // Truong hien thi
+        }
+        public static string getfieldvalues(string sql) //lấy các trường trong bảng mình k select
+        {
+            string ma = "";
+            SqlCommand cmd = new SqlCommand(sql, Functions.Conn);
+            SqlDataReader reader;
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                ma = reader.GetValue(0).ToString();
+            }
+            reader.Close();
+            return ma;
+        }
 
 
     }

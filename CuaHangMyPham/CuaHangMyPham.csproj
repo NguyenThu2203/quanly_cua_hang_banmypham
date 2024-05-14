@@ -47,11 +47,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Functions.cs" />
+    <Compile Include="Forms\Chatlieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Chatlieu.Designer.cs">
+      <DependentUpon>Chatlieu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmCongdung.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmCongdung.Designer.cs">
       <DependentUpon>frmCongdung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHanghoa.Designer.cs">
+      <DependentUpon>frmHanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoai.Designer.cs">
+      <DependentUpon>frmLoai.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmMain.cs">
       <SubType>Form</SubType>
@@ -61,26 +79,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Chatlieu.resx">
+      <DependentUpon>Chatlieu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCongdung.resx">
       <DependentUpon>frmCongdung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHanghoa.resx">
+      <DependentUpon>frmHanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLoai.resx">
+      <DependentUpon>frmLoai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -89,9 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mypham.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Blue Green and Black Minimalist Photo Collage Skincare Beauty Facebook Cover.png" />

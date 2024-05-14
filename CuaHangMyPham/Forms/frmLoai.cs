@@ -173,7 +173,7 @@ namespace CuaHangMyPham.Forms
         {
             this.Close();
         }
-        //Thủ tục dùng phím Enter thay cho phím Tab
+
         private void txtMaloai_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
