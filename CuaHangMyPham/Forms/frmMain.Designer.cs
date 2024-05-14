@@ -159,6 +159,7 @@
             this.mnuNuocsx.Name = "mnuNuocsx";
             this.mnuNuocsx.Size = new System.Drawing.Size(359, 44);
             this.mnuNuocsx.Text = "Nước sản xuất";
+            this.mnuNuocsx.Click += new System.EventHandler(this.mnuNuocsx_Click);
             // 
             // mnuCongdung
             // 

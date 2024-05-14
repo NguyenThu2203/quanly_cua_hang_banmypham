@@ -37,8 +37,14 @@ namespace CuaHangMyPham.Forms
 
         private void mnuChatlieu_Click(object sender, EventArgs e)
         {
-            frmChatlieu b = new frmChatlieu();
-            b.Show();
+            frmChatlieu a = new frmChatlieu();
+            a.Show();
+        }
+
+        private void mnuNuocsx_Click(object sender, EventArgs e)
+        {
+            frmNuocsanxuat a = new frmNuocsanxuat();
+            a.Show();
         }
     }
 }

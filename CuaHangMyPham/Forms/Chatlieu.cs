@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CuaHangMyPham.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -91,7 +92,24 @@ namespace CuaHangMyPham.Forms
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-
+            string sql;
+            if (tblChatlieu.Rows.Count == 0)
+            {
+                MessageBox.Show("Không còn dữ liệu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (txtMachatlieu.Text == "")
+            {
+                MessageBox.Show("Bạn chưa chọn bản ghi nào", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (MessageBox.Show("Bạn có muốn xóa không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                sql = "DELETE tblChatlieu WHERE Machatlieu=N'" + txtMachatlieu.Text + "'";
+                Functions.RunSql(sql);
+                Load_DataGridView();
+                ResetValue();
+            }
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -159,7 +177,6 @@ namespace CuaHangMyPham.Forms
             ResetValue();
             return;
         }
-
         private void btnDong_Click(object sender, EventArgs e)
         {
             this.Close();

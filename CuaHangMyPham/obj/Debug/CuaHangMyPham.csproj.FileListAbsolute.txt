@@ -37,3 +37,4 @@ C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.csproj.G
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.csproj.CoreCompileInputs.cache
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.exe
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.pdb
+C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.Forms.frmNuocsanxuat.resources

@@ -48,7 +48,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.Controls.Add(this.dgridChatlieu);
             this.panel1.Controls.Add(this.btnDong);
             this.panel1.Controls.Add(this.lblMachatlieu);
@@ -60,15 +60,15 @@
             this.panel1.Controls.Add(this.btnXoa);
             this.panel1.Controls.Add(this.btnLuu);
             this.panel1.Controls.Add(this.btnSua);
-            this.panel1.Location = new System.Drawing.Point(0, 85);
+            this.panel1.Location = new System.Drawing.Point(1, 90);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1000, 615);
+            this.panel1.Size = new System.Drawing.Size(992, 615);
             this.panel1.TabIndex = 26;
             // 
             // dgridChatlieu
             // 
             this.dgridChatlieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgridChatlieu.Location = new System.Drawing.Point(106, 160);
+            this.dgridChatlieu.Location = new System.Drawing.Point(69, 182);
             this.dgridChatlieu.Name = "dgridChatlieu";
             this.dgridChatlieu.RowHeadersWidth = 82;
             this.dgridChatlieu.RowTemplate.Height = 33;
@@ -78,7 +78,7 @@
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(819, 481);
+            this.btnDong.Location = new System.Drawing.Point(782, 503);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(115, 51);
             this.btnDong.TabIndex = 23;
@@ -90,7 +90,7 @@
             // 
             this.lblMachatlieu.AutoSize = true;
             this.lblMachatlieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMachatlieu.Location = new System.Drawing.Point(101, 12);
+            this.lblMachatlieu.Location = new System.Drawing.Point(64, 34);
             this.lblMachatlieu.Name = "lblMachatlieu";
             this.lblMachatlieu.Size = new System.Drawing.Size(141, 29);
             this.lblMachatlieu.TabIndex = 13;
@@ -98,7 +98,7 @@
             // 
             // txtTenchatlieu
             // 
-            this.txtTenchatlieu.Location = new System.Drawing.Point(321, 83);
+            this.txtTenchatlieu.Location = new System.Drawing.Point(284, 105);
             this.txtTenchatlieu.Multiline = true;
             this.txtTenchatlieu.Name = "txtTenchatlieu";
             this.txtTenchatlieu.Size = new System.Drawing.Size(229, 41);
@@ -108,7 +108,7 @@
             // 
             this.lblTenchatlieu.AutoSize = true;
             this.lblTenchatlieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenchatlieu.Location = new System.Drawing.Point(101, 83);
+            this.lblTenchatlieu.Location = new System.Drawing.Point(64, 105);
             this.lblTenchatlieu.Name = "lblTenchatlieu";
             this.lblTenchatlieu.Size = new System.Drawing.Size(151, 29);
             this.lblTenchatlieu.TabIndex = 14;
@@ -116,7 +116,7 @@
             // 
             // txtMachatlieu
             // 
-            this.txtMachatlieu.Location = new System.Drawing.Point(321, 12);
+            this.txtMachatlieu.Location = new System.Drawing.Point(284, 34);
             this.txtMachatlieu.Multiline = true;
             this.txtMachatlieu.Name = "txtMachatlieu";
             this.txtMachatlieu.Size = new System.Drawing.Size(229, 41);
@@ -124,7 +124,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(139, 481);
+            this.btnThem.Location = new System.Drawing.Point(102, 503);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(115, 51);
             this.btnThem.TabIndex = 16;
@@ -134,7 +134,7 @@
             // 
             // btnBoqua
             // 
-            this.btnBoqua.Location = new System.Drawing.Point(685, 481);
+            this.btnBoqua.Location = new System.Drawing.Point(648, 503);
             this.btnBoqua.Name = "btnBoqua";
             this.btnBoqua.Size = new System.Drawing.Size(115, 51);
             this.btnBoqua.TabIndex = 20;
@@ -144,7 +144,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(277, 481);
+            this.btnXoa.Location = new System.Drawing.Point(240, 503);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(115, 51);
             this.btnXoa.TabIndex = 17;
@@ -154,7 +154,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(552, 481);
+            this.btnLuu.Location = new System.Drawing.Point(515, 503);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(115, 51);
             this.btnLuu.TabIndex = 19;
@@ -164,7 +164,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(415, 481);
+            this.btnSua.Location = new System.Drawing.Point(378, 503);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(115, 51);
             this.btnSua.TabIndex = 18;
@@ -186,7 +186,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(280, 25);
+            this.label1.Location = new System.Drawing.Point(342, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 33);
             this.label1.TabIndex = 27;
