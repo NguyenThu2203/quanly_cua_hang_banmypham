@@ -9,3 +9,4 @@ D:\Kì 2 - Năm 3 - 2024\IT_Lập trình .NET\Projects\CuaHangMyPham\CuaHangMyPh
 D:\Kì 2 - Năm 3 - 2024\IT_Lập trình .NET\Projects\CuaHangMyPham\CuaHangMyPham\obj\Debug\CuaHangMyPham.pdb
 D:\Kì 2 - Năm 3 - 2024\IT_Lập trình .NET\Projects\CuaHangMyPham\CuaHangMyPham\obj\Debug\CuaHangMyPham.frmCongdung.resources
 D:\Kì 2 - Năm 3 - 2024\IT_Lập trình .NET\Projects\cuahangmypham\CuaHangMyPham\obj\Debug\CuaHangMyPham.Forms.frmMain.resources
+D:\Kì 2 - Năm 3 - 2024\IT_Lập trình .NET\Projects\CuaHangMyPham\CuaHangMyPham\obj\Debug\CuaHangMyPham.Forms.frmHanghoa.resources

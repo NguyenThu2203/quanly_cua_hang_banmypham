@@ -59,25 +59,5 @@ namespace CuaHangMyPham.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Blue_Green_and_Black_Minimalist_Photo_Collage_Skincare_Beauty_Facebook_Cover {
-            get {
-                object obj = ResourceManager.GetObject("Blue Green and Black Minimalist Photo Collage Skincare Beauty Facebook Cover", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mypham {
-            get {
-                object obj = ResourceManager.GetObject("mypham", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

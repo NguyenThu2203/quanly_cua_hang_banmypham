@@ -51,8 +51,8 @@
             this.mnuBaocaoBH = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBaocaoDT = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuBaocaoTK = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +90,7 @@
             this.mnuHanghoa.Name = "mnuHanghoa";
             this.mnuHanghoa.Size = new System.Drawing.Size(270, 34);
             this.mnuHanghoa.Text = "Hàng hóa";
+            this.mnuHanghoa.Click += new System.EventHandler(this.mnuHanghoa_Click);
             // 
             // mnuHoadon
             // 
@@ -103,13 +104,13 @@
             // mnuDanhmucHDN
             // 
             this.mnuDanhmucHDN.Name = "mnuDanhmucHDN";
-            this.mnuDanhmucHDN.Size = new System.Drawing.Size(270, 34);
+            this.mnuDanhmucHDN.Size = new System.Drawing.Size(235, 34);
             this.mnuDanhmucHDN.Text = "Hóa đơn nhập";
             // 
             // mnuDanhmucHDB
             // 
             this.mnuDanhmucHDB.Name = "mnuDanhmucHDB";
-            this.mnuDanhmucHDB.Size = new System.Drawing.Size(270, 34);
+            this.mnuDanhmucHDB.Size = new System.Drawing.Size(235, 34);
             this.mnuDanhmucHDB.Text = "Hóa đơn bán";
             // 
             // mnuKhachhang
@@ -144,26 +145,26 @@
             // mnuChatlieu
             // 
             this.mnuChatlieu.Name = "mnuChatlieu";
-            this.mnuChatlieu.Size = new System.Drawing.Size(270, 34);
+            this.mnuChatlieu.Size = new System.Drawing.Size(227, 34);
             this.mnuChatlieu.Text = "Chất liệu ";
             // 
             // mnuNuocsx
             // 
             this.mnuNuocsx.Name = "mnuNuocsx";
-            this.mnuNuocsx.Size = new System.Drawing.Size(270, 34);
+            this.mnuNuocsx.Size = new System.Drawing.Size(227, 34);
             this.mnuNuocsx.Text = "Nước sản xuất";
             // 
             // mnuCongdung
             // 
             this.mnuCongdung.Name = "mnuCongdung";
-            this.mnuCongdung.Size = new System.Drawing.Size(270, 34);
+            this.mnuCongdung.Size = new System.Drawing.Size(227, 34);
             this.mnuCongdung.Text = "Công dụng";
             this.mnuCongdung.Click += new System.EventHandler(this.mnuCongdung_Click);
             // 
             // mnuHanghoaNCC
             // 
             this.mnuHanghoaNCC.Name = "mnuHanghoaNCC";
-            this.mnuHanghoaNCC.Size = new System.Drawing.Size(270, 34);
+            this.mnuHanghoaNCC.Size = new System.Drawing.Size(227, 34);
             this.mnuHanghoaNCC.Text = "Nhà cung cấp";
             // 
             // traCứuToolStripMenuItem
@@ -229,6 +230,12 @@
             this.mnuBaocaoTK.Size = new System.Drawing.Size(270, 34);
             this.mnuBaocaoTK.Text = "Báo cáo tồn kho";
             // 
+            // thoátToolStripMenuItem
+            // 
+            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
+            this.thoátToolStripMenuItem.Text = "Thoát";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -238,17 +245,10 @@
             this.label1.Size = new System.Drawing.Size(0, 26);
             this.label1.TabIndex = 1;
             // 
-            // thoátToolStripMenuItem
-            // 
-            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
-            this.thoátToolStripMenuItem.Text = "Thoát";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CuaHangMyPham.Properties.Resources.Blue_Green_and_Black_Minimalist_Photo_Collage_Skincare_Beauty_Facebook_Cover;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);

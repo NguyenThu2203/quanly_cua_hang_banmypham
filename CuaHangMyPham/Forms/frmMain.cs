@@ -22,5 +22,11 @@ namespace CuaHangMyPham.Forms
             frmCongdung a = new frmCongdung();
             a.Show(); 
         }
+
+        private void mnuHanghoa_Click(object sender, EventArgs e)
+        {
+            frmHanghoa b = new frmHanghoa();
+            b.Show(); 
+        }
     }
 }
