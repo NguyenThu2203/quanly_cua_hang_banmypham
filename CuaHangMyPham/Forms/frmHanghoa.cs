@@ -65,6 +65,7 @@ namespace CuaHangMyPham.Forms
         }
         private void Load_DataGridView()
         {
+            MessageBox.Show("Theem bang"); 
             string sql; 
             //sql = "Select MaHang, TenHang, "
         }
