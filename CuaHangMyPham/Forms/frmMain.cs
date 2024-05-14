@@ -28,5 +28,11 @@ namespace CuaHangMyPham.Forms
             frmHanghoa b = new frmHanghoa();
             b.Show(); 
         }
+
+        private void mnuLoai_Click(object sender, EventArgs e)
+        {
+            frmLoai c = new frmLoai();
+            c.Show();
+        }
     }
 }
