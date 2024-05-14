@@ -23,6 +23,7 @@ C:\Users\ASUS\Desktop\QUanlycuahang\quanly_cua_hang_banmypham\CuaHangMyPham\obj\
 C:\Users\ASUS\Desktop\QUanlycuahang\quanly_cua_hang_banmypham\CuaHangMyPham\obj\Debug\CuaHangMyPham.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\QUanlycuahang\quanly_cua_hang_banmypham\CuaHangMyPham\obj\Debug\CuaHangMyPham.exe
 C:\Users\ASUS\Desktop\QUanlycuahang\quanly_cua_hang_banmypham\CuaHangMyPham\obj\Debug\CuaHangMyPham.pdb
+<<<<<<< HEAD
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\bin\Debug\CuaHangMyPham.exe.config
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\bin\Debug\CuaHangMyPham.exe
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\bin\Debug\CuaHangMyPham.pdb
@@ -38,3 +39,6 @@ C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.csproj.C
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.exe
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.pdb
 C:\Lập trình.NET\BaiTapLon_Lan\CuaHangMyPham\obj\Debug\CuaHangMyPham.Forms.frmNuocsanxuat.resources
+=======
+C:\Users\ASUS\Desktop\QUanlycuahang\quanly_cua_hang_banmypham\CuaHangMyPham\obj\Debug\CuaHangMyPham.Forms.frmHangsanxuat.resources
+>>>>>>> e6b12d1ea0038e86810aa3992f92ac0319e13740

@@ -21,7 +21,7 @@ namespace CuaHangMyPham.Forms
         private void frmChatlieu_Load(object sender, EventArgs e)
         {
             Class.Functions.Connect();
-            MessageBox.Show("Kết nối thành công");
+            //MessageBox.Show("Kết nối thành công");
             txtMachatlieu.Enabled = false;
             btnLuu.Enabled = false;
             btnBoqua.Enabled = false;

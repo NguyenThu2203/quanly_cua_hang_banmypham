@@ -35,6 +35,7 @@ namespace CuaHangMyPham.Forms
             c.Show();
         }
 
+<<<<<<< HEAD
         private void mnuChatlieu_Click(object sender, EventArgs e)
         {
             frmChatlieu a = new frmChatlieu();
@@ -45,6 +46,12 @@ namespace CuaHangMyPham.Forms
         {
             frmNuocsanxuat a = new frmNuocsanxuat();
             a.Show();
+=======
+        private void mnuHangsx_Click(object sender, EventArgs e)
+        {
+            frmHangsanxuat d = new frmHangsanxuat();
+            d.Show();
+>>>>>>> e6b12d1ea0038e86810aa3992f92ac0319e13740
         }
     }
 }
